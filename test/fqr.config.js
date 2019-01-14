@@ -6,8 +6,7 @@ const index = "./index.html";
 
 const
     bc = create("Browser"),
-    reload = bc.reload(index)
-        .factor(index),
+    reload = bc.reload(index).factor(),
     serve = bc.init({
         server: {
             injectChanges: true,

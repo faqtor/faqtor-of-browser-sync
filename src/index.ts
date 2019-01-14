@@ -31,6 +31,6 @@ class BrowserSync implements IBrowserSync {
             }
             return null;
         }
-        return faqtor.func(run);
+        return faqtor.func(run, f);
     }
 }
