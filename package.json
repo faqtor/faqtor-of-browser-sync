@@ -1,6 +1,6 @@
 {
   "name": "faqtor-of-browser-sync",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Browser-sync plugin for Faqtor build automation",
   "repository": {
     "type": "git",
@@ -28,17 +28,17 @@
   },
   "author": "Osman Bineev",
   "devDependencies": {
-    "cash-mv": "^0.2.0",
-    "faqtor": "0.1.5",
+    "shx": "^0.3.2",
+    "faqtor": "0.2.4",
     "faqtor-of-promise-all": "0.0.1",
-    "faqtor-of-publish": "0.0.1",
-    "faqtor-of-watch": "0.0.4",
+    "faqtor-of-publish": "0.0.3",
+    "faqtor-of-watch": "0.1.0",
     "fqr": "0.0.6",
-    "rimraf": "^2.6.2",
-    "typescript": "^3.0.1"
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
   },
   "dependencies": {
-    "@types/browser-sync": "0.0.42",
-    "browser-sync": "^2.26.3"
+    "@types/browser-sync": "2.26.0",
+    "browser-sync": "^2.26.5"
   }
 }
