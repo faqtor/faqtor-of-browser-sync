@@ -1,6 +1,6 @@
 {
   "name": "faqtor-of-browser-sync",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Browser-sync plugin for Faqtor build automation",
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
     "typescript": "^3.4.5"
   },
   "dependencies": {
-    "@types/browser-sync": "2.26.0",
-    "browser-sync": "^2.26.5"
+    "@types/browser-sync": "^2.26.0",
+    "browser-sync": "^2.26.7"
   }
 }
